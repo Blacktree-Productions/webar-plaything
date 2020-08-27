@@ -8661,6 +8661,11 @@ react-scripts@3.4.3:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-xr@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-xr/-/react-xr-1.0.9.tgz#a90634d9108162c2a157e5eb44b2faba473f7103"
+  integrity sha512-2U4s8uvK+QW1q3gdpY04i7I9CU/bQ01YSiOLNMCaOsj34Z4F0cI65XCEYiiorWEr0Ey8cLN8WFWldGubDaF1+g==
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"

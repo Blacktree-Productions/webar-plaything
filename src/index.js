@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Canvas } from 'react-three-fiber';
+import Box from './box';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Canvas>
+    <ambientLight />
+    <pointLight />
+    <Box position={[-1.2, 0, 0]} />
+    <Box position={[1.2, 0, 0]} />
+  </Canvas>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
